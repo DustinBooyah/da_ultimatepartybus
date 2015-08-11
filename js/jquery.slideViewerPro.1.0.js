@@ -23,7 +23,7 @@ jQuery.extend( jQuery.easing, // from the jquery.easing plugin
 	}
 });
 jQuery(function(){
-   jQuery("div.svwp").prepend("<img src='images/svwloader.gif' class='ldrgif' alt='loading...'/ >"); //change with YOUR loader image path   
+   jQuery("div.svwp").prepend("<img src='img/svwloader.gif' class='ldrgif' alt='loading...'/ >"); //change with YOUR loader image path   
 });
 var j = 0;
 jQuery.fn.slideViewerPro = function(settings) {
@@ -45,8 +45,8 @@ jQuery.fn.slideViewerPro = function(settings) {
 			thumbsPercentReduction: 12,
 			thumbsVis: true,
 			easeFunc: "easeInOutExpo",
-			leftButtonInner: "<img src='images/larw.gif' alt='left' />", //could be an image "<img src='images/larw.gif' />" or an escaped char as "&larr";
-			rightButtonInner: "<img src='images/rarw.gif' alt='right' />", //could be an image or an escaped char as "&rarr";
+			leftButtonInner: "<img src='img/larw.gif' alt='left' />", //could be an image "<img src='img/larw.gif' />" or an escaped char as "&larr";
+			rightButtonInner: "<img src='img/rarw.gif' alt='right' />", //could be an image or an escaped char as "&rarr";
 			autoslide: false,
 			typo: false,
 			typoFullOpacity: 0.9,

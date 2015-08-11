@@ -76,7 +76,7 @@
 			var gall_settings = new Array();
 				for (var key in map) {
 					gall_settings.push(key);
-					if($(key).length === 1){//check on set of images
+					if($(key).length === 1){//check on set of img
 					alert('For single image is recommended to use class pirobox');
 					$(key).css('border','2px dotted red');
 					}
